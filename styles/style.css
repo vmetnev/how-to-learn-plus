@@ -1,3 +1,7 @@
+@import url('fonts.css');
+
+
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,7 +10,8 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter';
+  line-height: 1.3rem;
 }
 
 .header {
@@ -28,4 +33,407 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+
+/* Тестивание подключения шрифтов */
+
+.regular {
+  font-family: "Inter";
+  font-weight: normal;
+}
+
+.bold {
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+.semibold {
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+
+/* my css */
+
+
+
+/* ----------------------------------------- */
+.footer {
+
+  width: 100%;
+}
+
+.footer__main-assets {
+  margin-top: 60px;
+}
+
+.footer__copyright {
+  margin-bottom: 40px;
+}
+
+.footer_dark-theme {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.footer__holder {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer__main-assets {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.footer__links-items {
+  list-style-type: none;
+  align-self: left;
+}
+
+.footer__link-item,
+.footer__link-item:hover,
+.footer__link-item:visited,
+.footer__link-item:active {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__icon {
+  margin-right: 10px;
+}
+
+.footer__headers {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.footer__list {
+  padding: 0;
+}
+
+.kaufman {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  /* я не знаю почему  */
+
+}
+
+.resources {
+  background-color: white;
+  color: black;
+}
+
+
+.section__holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__holder_margintop_100 {
+  margin-top: 100px;
+}
+
+.section__holder_marginbottom_217 {
+  margin-bottom: 217px;
+}
+
+.section__holder_margintop_90 {
+  margin-top: 90px;
+}
+
+.section__holder_marginbottom_90 {
+  margin-bottom: 90px;
+}
+
+.section__main-title {
+
+  align-self: center;
+}
+
+.section__second-title {
+  margin-top: 0;
+  align-self: center;
+}
+
+.section__assets {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__assetrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+
+
+.section__card {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+}
+
+.section__card-header {
+  font-weight: bolder;
+}
+
+.section__card-content {
+  font-size: 14px;
+}
+
+/* ----------------------------------------------------- */
+/* DIGITS BLOCK */
+/* ----------------------------------------------------- */
+
+.digits {
+  border: 1px solid white;
+}
+
+.digits__holder {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.digits__holder_margintop_100 {
+  margin-top: 100px;
+}
+
+.digits__holder_marginbottom_100 {
+  margin-bottom: 100px;
+}
+
+.digits__main-title {
+  align-self: center;
+}
+
+.digits__second-title {
+  align-self: center;
+}
+
+.digits__assets {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.digits__assetrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 50px;
+}
+
+.digits__card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+
+
+.digits__card-header {
+  font-weight: bolder;
+}
+
+.digits__card-content {
+  font-size: 14px;
+}
+
+/* -------------------------------------- */
+
+
+/* ----------------------------------------------------- */
+/* TECNIQUES BLOCK */
+/* ----------------------------------------------------- */
+
+
+.techniques {
+  border: 1px solid white;
+}
+
+.techniques__holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.techniques__holder_margintop_100 {
+  margin-top: 100px;
+}
+
+.techniques__holder_marginbottom_100 {
+  margin-bottom: 100px;
+}
+
+.techniques__main-title {
+  align-self: center;
+}
+
+.techniques__second-title {
+  align-self: center;
+}
+
+.techniques__assets {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.techniques__assetrow {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 90px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  max-width: 50%;
+}
+
+.techniques__card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+
+.techniques__card-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+
+
+.techniques__card-header {
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.techniques__card-content {
+  font-size: 14px;
+  text-align: center;
+}
+
+.description {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.description__holder {
+  max-width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid red;
+  gap: 50px;
+}
+
+
+.description__column-left {
+  color: blue;
+  width: 20%;
+  text-align: end;
+
+}
+
+.description__column-right {
+  color: black;
+  width: 80%;
+
+}
+
+/* ------------------------------------------- */
+
+/* HEADER */
+
+.header__holder {
+  margin-left: 50px;
+  margin-top: 50px;
+  border: 1px solid red;
+}
+
+.header__intro {
+  font-weight: bold;
+}
+
+.header__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header__text {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.header__title-holder {
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.header__title {
+  font-size: 70px;
+  line-height: 5rem;
+}
+
+.header__smalltext {
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.header__picture {
+  width: 60%;
+  height: 700px;
+  border: 1px solid red;
+  background-image: url('../images/header-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.header__blue-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(55, 109, 235);
+  width: 620px;
+  height: 620px;
+  z-index: 0.5;
+
 }
