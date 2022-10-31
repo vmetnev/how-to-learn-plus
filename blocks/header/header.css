@@ -1,16 +1,20 @@
-/* ------------------------------------------- */
-
 /* HEADER */
+
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+}
+
 
 .header__holder {
   margin-left: 50px;
   margin-top: 50px;
-
 }
 
-.header__intro {
-  font-weight: bold;
-}
+
 
 .header__row {
   display: flex;
@@ -19,7 +23,6 @@
 }
 
 .header__text {
-
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -37,52 +40,46 @@
   line-height: 5rem;
 }
 
-.header__smalltext {
+.header__subtitle {
   height: 40%;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
 
-.header__picture {
+.header__picture-holder {
   width: 60%;
   height: 700px;
   position: relative;
   z-index: 1;
 }
 
-.header__blue-box {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: rgb(55, 109, 235);
-  width: 620px;
-  height: 620px;
-  z-index: 0.5;
-}
-
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-
-
-
-.header_p {
+.header__main-illustration {
   position: absolute;
   z-index: 1;
   bottom: 0;
   right: 0;
   width: 900px;
   height: 700px;
+}
+
+.header__square-pic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
+  z-index: 0.5;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
