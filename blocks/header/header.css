@@ -1,0 +1,88 @@
+/* ------------------------------------------- */
+
+/* HEADER */
+
+.header__holder {
+  margin-left: 50px;
+  margin-top: 50px;
+
+}
+
+.header__intro {
+  font-weight: bold;
+}
+
+.header__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header__text {
+
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.header__title-holder {
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.header__title {
+  font-size: 70px;
+  line-height: 5rem;
+}
+
+.header__smalltext {
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.header__picture {
+  width: 60%;
+  height: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+.header__blue-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(55, 109, 235);
+  width: 620px;
+  height: 620px;
+  z-index: 0.5;
+}
+
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+
+
+
+.header_p {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  width: 900px;
+  height: 700px;
+}

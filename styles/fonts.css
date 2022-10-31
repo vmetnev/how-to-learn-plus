@@ -7,7 +7,6 @@
   font-weight: normal;
 }
 
-
 @font-face {
   src:
     url("../fonts/Inter/Inter-Bold.woff2") format("woff2"),
@@ -16,7 +15,6 @@
   font-family: 'Inter';
   font-weight: bold;
 }
-
 
 @font-face {
   src:

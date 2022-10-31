@@ -1,0 +1,27 @@
+.description {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.description__holder {
+  max-width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+
+
+.description__column-left {
+  color: blue;
+  width: 20%;
+  text-align: end;
+}
+
+.description__column-right {
+  color: black;
+  width: 80%;
+}

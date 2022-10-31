@@ -1,0 +1,28 @@
+.oakley {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+}
+
+.oakley__holder {
+  margin-top: 160px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.oakley__row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.oakley__left-title {
+  color: blue;
+  width: 15%;
+}
+
+.oakley__main-text {
+  width: 85%;
+}
