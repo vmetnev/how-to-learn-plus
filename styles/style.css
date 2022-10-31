@@ -2,6 +2,9 @@
 
 
 
+
+
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -134,50 +137,46 @@
 
 }
 
-.resources {
-  background-color: white;
-  color: black;
-}
 
 
-.section__holder {
+.kaufman__holder {
   display: flex;
   flex-direction: column;
 }
 
-.section__holder_margintop_100 {
+.kaufman__holder_margintop_100 {
   margin-top: 100px;
 }
 
-.section__holder_marginbottom_217 {
+.kaufman__holder_marginbottom_217 {
   margin-bottom: 217px;
 }
 
-.section__holder_margintop_90 {
+.kaufman__holder_margintop_90 {
   margin-top: 90px;
 }
 
-.section__holder_marginbottom_90 {
+.kaufman__holder_marginbottom_90 {
   margin-bottom: 90px;
 }
 
-.section__main-title {
+.kaufman__main-title {
 
   align-self: center;
 }
 
-.section__second-title {
+.kaufman__second-title {
   margin-top: 0;
   align-self: center;
 }
 
-.section__assets {
+.kaufman__assets {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
 }
 
-.section__assetrow {
+.kaufman__assetrow {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -187,17 +186,17 @@
 
 
 
-.section__card {
+.kaufman__card {
   display: flex;
   flex-direction: column;
   width: 140px;
 }
 
-.section__card-header {
+.kaufman__card-header {
   font-weight: bolder;
 }
 
-.section__card-content {
+.kaufman__card-content {
   font-size: 14px;
 }
 
@@ -631,4 +630,72 @@
 .video__iframe {
   width: 515px;
   height: 316px;
+}
+
+/* RESOURCES */
+
+
+.resources {
+  background-color: white;
+  color: black;
+}
+
+
+.resources__holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.resources__holder_margintop_100 {
+  margin-top: 100px;
+}
+
+.resources__holder_marginbottom_217 {
+  margin-bottom: 217px;
+}
+
+.resources__holder_margintop_90 {
+  margin-top: 90px;
+}
+
+.resources__holder_marginbottom_90 {
+  margin-bottom: 90px;
+}
+
+.resources__main-title {
+
+  align-self: center;
+}
+
+.resources__second-title {
+  margin-top: 0;
+  align-self: center;
+}
+
+.resources__assets {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resources__assetrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.resources__card {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+}
+
+.resources__card-header {
+  font-weight: bolder;
+}
+
+.resources__card-content {
+  font-size: 14px;
 }
