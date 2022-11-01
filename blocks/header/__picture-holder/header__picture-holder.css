@@ -1,0 +1,6 @@
+.header__picture-holder {
+  width: 60%;
+  height: 700px;
+  position: relative;
+  z-index: 1;
+}
