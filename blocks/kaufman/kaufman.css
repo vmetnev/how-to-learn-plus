@@ -7,57 +7,6 @@
 .kaufman__holder {
   display: flex;
   flex-direction: column;
-}
-
-.kaufman__holder_margintop_100 {
-  margin-top: 100px;
-}
-
-.kaufman__holder_marginbottom_217 {
-  margin-bottom: 217px;
-}
-
-.kaufman__holder_margintop_90 {
   margin-top: 90px;
-}
-
-.kaufman__holder_marginbottom_90 {
   margin-bottom: 90px;
-}
-
-.kaufman__main-title {
-  align-self: center;
-}
-
-.kaufman__second-title {
-  margin-top: 0;
-  align-self: center;
-}
-
-.kaufman__assets {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-}
-
-.kaufman__assetrow {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 70px;
-  margin-top: 50px;
-}
-
-.kaufman__card {
-  display: flex;
-  flex-direction: column;
-  width: 140px;
-}
-
-.kaufman__card-header {
-  font-weight: bolder;
-}
-
-.kaufman__card-content {
-  font-size: 14px;
 }

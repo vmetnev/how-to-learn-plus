@@ -58,16 +58,38 @@
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-subtitle/section-subtitle.css');
 
+/* -------------------------------------------------------------------------------- */
+/* SECTION SUBTITLE */
+/* -------------------------------------------------------------------------------- */
 
+@import url('../blocks/digits/digits.css');
+
+/* -------------------------------------------------------------------------------- */
+/* TABLE */
+/* -------------------------------------------------------------------------------- */
+@import url('../blocks/table/table.css');
+@import url('../blocks/table/__cell/table__cell.css');
+@import url('../blocks/table/__cell/__cell_theme_dark/table__cell_theme_dark.css');
+@import url('../blocks/table/__heading/table__heading.css');
+@import url('../blocks/table/__text/table__text.css');
+
+/* -------------------------------------------------------------------------------- */
+/* RESOURCES */
+/* -------------------------------------------------------------------------------- */
+
+@import url('../blocks/resources/resources.css');
+@import url('../blocks/resources/__holder/resources__holder.css');
+@import url('../blocks/resources/__link/resources__link.css');
+@import url('../blocks/resources/__logo-zone/resource__logo-zone.css');
 
 
 @import url('../blocks/video/video.css');
 @import url('../blocks/oakley/oakley.css');
 @import url('../blocks/feynman/feynman.css');
-@import url('../blocks/digits/digits.css');
+
 @import url('../blocks/khan/khan.css');
 @import url('../blocks/kaufman/kaufman.css');
-@import url('../blocks/resources/resources.css');
+
 @import url('../blocks/footer/footer.css');
 
 .page {
@@ -89,8 +111,6 @@
   margin-right: 0;
   margin-top: 80px;
 }
-
-
 
 /* COLORS::backdrop
 

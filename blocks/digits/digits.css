@@ -1,53 +1,14 @@
 .digits {
   border: 1px solid white;
+  display: flex;
+  flex-direction: column;
 }
 
 .digits__holder {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.digits__holder_margintop_100 {
   margin-top: 100px;
-}
-
-.digits__holder_marginbottom_100 {
   margin-bottom: 100px;
-}
-
-.digits__main-title {
-  align-self: center;
-}
-
-.digits__second-title {
-  align-self: center;
-}
-
-.digits__assets {
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
-}
-
-.digits__assetrow {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  gap: 90px;
-  margin-top: 50px;
-}
-
-.digits__card {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-}
-
-.digits__card-header {
-  font-weight: bolder;
-}
-
-.digits__card-content {
-  font-size: 14px;
+  align-items: center;
 }

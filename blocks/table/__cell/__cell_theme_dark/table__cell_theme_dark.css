@@ -1,7 +1,8 @@
 .table__cell {
   margin-top: 60px;
-  min-width: 250px;
-  max-width: 250px;
+  /* border: 1px solid red; */
+  min-width: 200px;
+  max-width: 200px;
   display: flex;
   flex-direction: column;
 }
