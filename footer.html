@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <footer class="footer">
+    <div class="footer__holder">
+      <div class="footer__main-assets">
+        <div class="footer__main-title">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="logo">
+        </div>
+        <div class="footer__links">
+          <div class="footer__menue">
+            <h4 class="footer__headers">О практикуме</h4>
+            <ul class="footer__list">
+              <li class="footer__links-items"><a class="footer__link-item" href="#">Главная</a></li>
+              <li class="footer__links-items"><a class="footer__link-item" href="#">Концепция</a></li>
+              <li class="footer__links-items"><a class="footer__link-item" href="#">Наставники</a></li>
+            </ul>
+          </div>
+          <div class="footer__menue">
+            <h4 class="footer__headers">Соцсети</h4>
+            <ul class="footer__list">
+              <li class="footer__links-items"><a class="footer__link-item" href="#"><img class="footer__icon"
+                    src="./images/youtube-icon.svg" alt="Youtube">Youtube</a></li>
+              <li class="footer__links-items"><a class="footer__link-item" href="#"><img class="footer__icon"
+                    src="./images/vk_color_white.svg" alt="Youtube">ВКонтакте</a></li>
+              <li class="footer__links-items"><a class="footer__link-item" href="#"><img class="footer__icon"
+                    src="./images/tiktok-icon.svg" alt="Youtube">TikTok</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">&#169 Виктор Абанькин</div>
+    </div>
+  </footer>
+
+</body>
+
+<style>
+  .footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .footer__holder {
+    border: 1px solid red;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footer__copyright {
+    margin-bottom: 40px;
+  }
+
+  .footer__main-assets {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  .footer__links-items {
+    list-style-type: none;
+    align-self: left;
+  }
+
+  .footer__link-item,
+  .footer__link-item:hover,
+  .footer__link-item:visited,
+  .footer__link-item:active {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer__icon {
+    margin-right: 10px;
+  }
+
+  .footer__headers {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+
+  .footer__list {
+    padding: 0;
+  }
+
+</style>
+
+</html>

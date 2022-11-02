@@ -22,6 +22,8 @@
 
 /* LOGO */
 @import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/_place_footer/logo_place_footer.css');
+@import url('../blocks/logo/_place_header/logo_place_header.css');
 
 /* -------------------------------------------------------------------------------- */
 /* DESCRIPTION */
