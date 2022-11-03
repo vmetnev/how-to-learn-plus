@@ -1,0 +1,10 @@
+.footer__links-holder {
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+  transition: opacity 0.2s ease;
+}
+
+.footer__links-holder:hover {
+  opacity: 0.5;
+}

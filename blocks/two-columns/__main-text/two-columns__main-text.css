@@ -7,15 +7,15 @@
   font-style: normal;
 }
 
-.two-columns__main-text .two-columns__paragraph:first-of-type {
-  margin-bottom: 30px;
+.two-columns__main-text p {
+  margin-top: 0;
 }
 
-.two-columns__main-text .two-columns__paragraph:first-of-type {
+
+.two-columns__main-text .two-columns__paragraph {
   margin-bottom: 30px;
 }
 
 .two-columns__main-text .two-columns__paragraph:last-of-type {
-  margin-top: 30px;
-
+  margin-bottom: 0;
 }

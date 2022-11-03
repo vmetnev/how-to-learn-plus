@@ -1,0 +1,11 @@
+.footer__column-link,
+.footer__column-link:hover,
+.footer__column-link:visited,
+.footer__column-link:active {
+  text-decoration: none;
+  color: white;
+  line-height: 18px;
+  font-size: 18px;
+  font-style: normal;
+  margin-left: 25px;
+}
