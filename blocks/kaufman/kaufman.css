@@ -1,7 +1,9 @@
 .kaufman {
   background-color: black;
   color: white;
-  border: 1px solid black;
+  border: 1px transparent black;
+  position: relative;
+  overflow: hidden;
 }
 
 .kaufman__holder {
@@ -9,4 +11,5 @@
   flex-direction: column;
   margin-top: 90px;
   margin-bottom: 90px;
+  z-index: 2;
 }

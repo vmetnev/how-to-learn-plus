@@ -6,4 +6,5 @@
   height: 568px;
   width: 568px;
   z-index: 0.5;
+  animation: rotation linear 20s infinite;
 }
