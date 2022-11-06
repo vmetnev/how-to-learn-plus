@@ -6,4 +6,5 @@
   position: relative;
   border: 0.1px transparent #f2f2f2;
   overflow: hidden;
+  display: flex;
 }

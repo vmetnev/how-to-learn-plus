@@ -3,4 +3,7 @@
   font-size: 102px;
   line-height: 96px;
   z-index: 2;
+  align-self: center;
+  width: 730px;
+  margin-left: 64px;
 }
