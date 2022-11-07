@@ -2,6 +2,9 @@
   margin-top: 100px;
   margin-bottom: 217px;
   display: flex;
+
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
+  outline: 1px solid blue;
 }

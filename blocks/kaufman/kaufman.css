@@ -1,7 +1,7 @@
 .kaufman {
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
-  border: 1px transparent black;
+  border: 1px transparent #1f1f1f;
   position: relative;
   overflow: hidden;
 }

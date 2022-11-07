@@ -4,6 +4,7 @@
   height: 38px;
   text-align: center;
   transition: opacity 0.2s linear;
+  outline: 1px solid red;
 }
 
 .resources__link:hover {
