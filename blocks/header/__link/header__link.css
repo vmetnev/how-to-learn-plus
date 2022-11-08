@@ -3,6 +3,11 @@
   color: #2f80ed;
   opacity: 1;
   transition: opacity 0.2s ease;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+
+
 }
 
 .header__link:hover {
