@@ -1,5 +1,6 @@
 .section-subtitle {
   margin-top: 20px;
+  margin-bottom: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -7,9 +8,4 @@
   text-align: center;
   align-self: center;
   z-index: 2;
-}
-
-.section-subtitle h3 {
-  margin-top: 0;
-  margin-bottom: 0;
 }

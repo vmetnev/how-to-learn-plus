@@ -1,14 +1,8 @@
-.table__cell {
-  margin-top: 60px;
+.table__cell_theme_dark {
   min-width: 200px;
   max-width: 200px;
-  display: flex;
-  flex-direction: column;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  outline: 1px solid red;
 }

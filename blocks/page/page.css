@@ -4,4 +4,6 @@
   margin: 0 auto;
   font-family: 'Inter', 'Arial', sans-serif;
   line-height: 1.3rem;
+  padding: 0;
+  box-sizing: border-box;
 }

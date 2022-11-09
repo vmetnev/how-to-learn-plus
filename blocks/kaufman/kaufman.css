@@ -1,15 +1,10 @@
 .kaufman {
   background-color: #1f1f1f;
   color: white;
-  border: 1px transparent #1f1f1f;
   position: relative;
   overflow: hidden;
-}
-
-.kaufman__holder {
   display: flex;
   flex-direction: column;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  padding-top: 90px;
   z-index: 2;
 }

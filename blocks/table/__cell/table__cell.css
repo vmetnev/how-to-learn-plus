@@ -1,7 +1,7 @@
 .table__cell {
-  margin-top: 60px;
   min-width: 250px;
   max-width: 250px;
   display: flex;
   flex-direction: column;
+  outline: 1px solid red;
 }
