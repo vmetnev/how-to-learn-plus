@@ -1,7 +1,7 @@
 /* -------------------------------------------------------------------------------- */
 /* NORMALIZE CSS */
 /* -------------------------------------------------------------------------------- */
-
+@import url('../vendor/reset.css');
 @import url('../vendor/normalize.css');
 
 /* -------------------------------------------------------------------------------- */
@@ -62,7 +62,6 @@
 @import url('../blocks/cards/__title/cards__title.css');
 @import url('../blocks/cards/__description/cards__description.css');
 
-
 /* -------------------------------------------------------------------------------- */
 /* SECTION SUBTITLE */
 /* -------------------------------------------------------------------------------- */
@@ -79,6 +78,8 @@
 /* TABLE */
 /* -------------------------------------------------------------------------------- */
 @import url('../blocks/table/table.css');
+@import url('../blocks/table/_theme_dark/table_theme_dark.css');
+@import url('../blocks/table/_theme_white/table_theme_white.css');
 @import url('../blocks/table/__cell/table__cell.css');
 @import url('../blocks/table/__cell/__cell_theme_dark/table__cell_theme_dark.css');
 @import url('../blocks/table/__heading/table__heading.css');
@@ -92,7 +93,6 @@
 @import url('../blocks/resources/__holder/resources__holder.css');
 @import url('../blocks/resources/__link/resources__link.css');
 @import url('../blocks/resources/__logo-zone/resource__logo-zone.css');
-
 
 /* -------------------------------------------------------------------------------- */
 /* FOOTER */

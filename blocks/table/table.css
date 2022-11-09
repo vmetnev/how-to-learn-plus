@@ -6,10 +6,5 @@
   flex-wrap: wrap;
   margin: 0 auto;
   z-index: 2;
-  outline: 1px solid red;
-  margin-top: 0;
-  margin-bottom: 100px;
-  row-gap: 60px;
-  padding-top: 60px;
   box-sizing: border-box;
 }
