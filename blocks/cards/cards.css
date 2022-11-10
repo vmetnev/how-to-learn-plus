@@ -1,5 +1,11 @@
 .cards {
-  width: 240px;
-  font-family: "Inter";
-  box-sizing: border-box;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  column-gap: 100px;
+  flex-wrap: wrap;
+  width: 920px;
+  margin-bottom: 100px;
+
 }

@@ -3,6 +3,7 @@
   text-decoration: none;
   position: relative;
   transition: opacity 0.2s ease;
+  outline: 1px solid red;
 }
 
 .footer__links-holder:hover {
