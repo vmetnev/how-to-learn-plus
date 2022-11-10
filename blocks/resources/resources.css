@@ -1,5 +1,12 @@
 .resources {
   background-color: white;
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 217px;
 }

@@ -1,8 +1,29 @@
 .page {
-  min-width: 1000px;
+  min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   padding: 0;
   font-family: 'Inter', 'Arial', sans-serif;
   line-height: 1.3rem;
+  box-sizing: border-box;
+  border: none;
+  overflow-x: hidden;
+}
+
+.html {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.section {
+  padding: 0;
+  margin: 0;
+  border: none;
 }

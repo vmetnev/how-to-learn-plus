@@ -9,7 +9,6 @@
   display: block;
   margin-bottom: 10px;
   transition: opacity 0.2s linear;
-  outline: 1px solid red;
 }
 
 .footer__column-link:hover {

@@ -1,9 +1,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  /* position: absolute; */
   margin-top: 2px;
   margin-right: 8px;
-  outline: 1px solid red;
   display: inline-block;
 }
