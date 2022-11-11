@@ -1,17 +1,12 @@
 .two-columns__brief {
   color: #2f80ed;
   width: 175px;
-  line-height: 1.2rem;
   font-size: 18px;
-  font-weight: normal;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.two-columns__brief h2 {
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
-  font-size: 18px;
   font-weight: 400;
 }

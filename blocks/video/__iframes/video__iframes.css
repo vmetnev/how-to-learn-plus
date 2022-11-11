@@ -5,3 +5,8 @@
   justify-content: center;
   gap: 20px;
 }
+
+
+.video__iframes li {
+  list-style-type: none;
+}
