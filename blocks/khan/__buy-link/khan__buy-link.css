@@ -6,8 +6,7 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-  left: 668px;
-  position: absolute;
+  z-index: 2;
 }
 
 .khan__buy-link:hover {

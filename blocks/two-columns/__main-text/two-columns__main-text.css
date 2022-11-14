@@ -5,17 +5,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-
-.two-columns__main-text p {
-  margin-top: 0;
-}
-
-
-.two-columns__main-text .two-columns__paragraph {
-  margin-bottom: 30px;
-}
-
-.two-columns__main-text .two-columns__paragraph:last-of-type {
-  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 30px;
 }
