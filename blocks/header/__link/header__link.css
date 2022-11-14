@@ -5,9 +5,7 @@
   transition: opacity 0.2s ease;
   font-size: 18px;
   line-height: 25px;
-  font-weight: normal;
-
-
+  font-weight: 400;
 }
 
 .header__link:hover {
