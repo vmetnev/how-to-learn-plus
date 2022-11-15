@@ -1,5 +1,5 @@
 .feynman {
-  height: 890px;
+  min-height: 890px;
   box-sizing: border-box;
   position: relative;
   background: url("../../images/feynman.png") no-repeat bottom 0 left 0;
