@@ -6,9 +6,5 @@
   position: absolute;
   background-size: cover;
   z-index: -2;
-}
-
-.kaufman__triange img {
-  position: absolute;
-  left: 0;
+  background-image: url('../../../images/kaufman-triangle.svg')
 }

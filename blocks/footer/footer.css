@@ -5,4 +5,5 @@
   padding-bottom: 40px;
   min-height: 350px;
   display: flex;
+  box-sizing: border-box;
 }
