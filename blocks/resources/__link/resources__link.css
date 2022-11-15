@@ -2,9 +2,6 @@
   display: inline-block;
   text-align: center;
   transition: opacity 0.2s linear;
-  width: 270px;
-  height: 38px;
-
 }
 
 .resources__link:hover {
